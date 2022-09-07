@@ -11,6 +11,7 @@
             text-align: justify;
             width: 70%;
         }
+
         h1 {
             text-align: center;
         }
@@ -24,7 +25,7 @@
             line-height: 2;
         }
 
-        .datos-personales {
+        #datos-personales {
             display: flex;
             justify-content: center;
         }
@@ -33,8 +34,10 @@
 </head>
 
 <body>
-    <h1>Curriculum Vitae</h1>
-    <section class="datos-personales">
+    <header>
+        <h1>Curriculum Vitae</h1>
+    </header>
+    <section id="datos-personales">
         <img src="img/foto.png" alt="foto del postulante">
         <ul>
             <li>Nombre: Jonathan Alonso</li>
@@ -43,7 +46,7 @@
         </ul>
     </section>
 
-    <section class="datos-academicos">
+    <section id="datos-academicos">
         <h2>Datos Académicos</h2>
         <dt>UTEC, Maldonado — Tecnólogo en Informática</dt>
         <dd>
@@ -57,7 +60,7 @@
             <p>Programación en C++, manejo de bases de datos relacionales, redes y sistemas operativos</p>
         </dd>
     </section>
-    <section class="experiencia-laboral">
+    <section id="experiencia-laboral">
         <h2>Experiencia laboral</h2>
         <dt>Enjoy Punta del Este (Baluma S.A.), Auxiliar de almacén</dt>
         <dd>
@@ -67,7 +70,7 @@
         </dd>
 
     </section>
-    <section class="sobre-mi">
+    <section id="sobre-mi">
         <h2>Sobre mi</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium velit nesciunt numquam distinctio
             possimus mollitia facilis natus voluptatum? Natus magni repellat atque magnam sunt reiciendis quaerat
